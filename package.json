@@ -1,0 +1,23 @@
+{
+  "name": "asincronismo_javascript",
+  "version": "1.0.0",
+  "description": "tester",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/callback/index.js",
+    "dev2": "node src/callback/challenge.js",
+    "dev3": "node src/promise/index.js",
+    "dev4": "node src/promise/challenge.js",
+    "dev5": "node src/asyn/index.js",
+    "dev6": "node src/asyn/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise"
+  ],
+  "author": "Richard",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
